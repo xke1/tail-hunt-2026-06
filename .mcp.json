@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "openbb": {
+      "command": "/Users/ke/Downloads/openbb/.venv/bin/openbb-mcp",
+      "args": [
+        "--transport", "stdio",
+        "--tool-discovery",
+        "--default-categories", "economy,fixedincome,derivatives,equity,etf,news,regulators"
+      ]
+    }
+  }
+}

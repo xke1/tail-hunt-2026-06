@@ -1,0 +1,14 @@
+# 虚拟环境(巨大、机器相关)
+.venv/
+# Python 缓存
+__pycache__/
+*.pyc
+# 系统
+.DS_Store
+# 日志
+*.log
+/tmp/
+# OpenBB 用户数据(可能含 key, 不进库)
+OpenBBUserData/
+# 临时数据探针 csv(保留 openbb_inventory.csv 当数据地图, 其余忽略)
+fred_test.json
